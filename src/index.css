@@ -44,3 +44,8 @@ li {
 li :first-child {
   color: goldenrod;
 }
+
+#listNav {
+  list-style: none;
+  display: flex;
+}
