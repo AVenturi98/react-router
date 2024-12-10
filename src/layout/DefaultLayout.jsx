@@ -4,7 +4,7 @@ import Header from "./Header"
 export default function DefaultLayout() {
     return (
         <>
-            <Header />
+            <Header className="navLink" />
             <Outlet />
         </>
     )

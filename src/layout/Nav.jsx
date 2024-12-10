@@ -7,7 +7,7 @@ export default function Nav() {
         <>
             <ul id="listNav">
                 <li>
-                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/home'>Home</NavLink>
                 </li>
                 <li>
                     <NavLink to='/name'>Person</NavLink>

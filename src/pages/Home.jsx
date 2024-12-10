@@ -1,9 +1,6 @@
 export default function Home() {
 
     return (
-        <>
-            <h1>The Family Guy</h1>
-        </>
-
+        <h1 className="flexItem">The Family Guy</h1>
     )
 }

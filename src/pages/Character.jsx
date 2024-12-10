@@ -6,7 +6,7 @@ export default function Character() {
         <>
             <ul>
                 {quotes.map((name, i) => (
-                    <li key={i}>
+                    <li key={i} className='listItem'>
                         {name.person}
                         <ul>
                             <li>{name.quote}</li>
