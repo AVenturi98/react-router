@@ -5,19 +5,23 @@ export default function Nav() {
     return (
 
         <>
-            <ul id="listNav">
-                <li>
-                    <NavLink to='/home'>Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/name'>Person</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/character'>Character</NavLink>
+            <div className="header">
+                <ul id="listNav">
+                    <li>
+                        <NavLink to='/'>Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/name'>Person</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/character'>Character</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/person'>All persons</NavLink>
+                    </li>
+                </ul>
 
-                </li>
-            </ul>
-
+            </div>
         </>
     )
 }
